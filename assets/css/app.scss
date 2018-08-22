@@ -1,0 +1,240 @@
+/* This file is for your main application css. */
+
+@import "bootstrap";
+body {
+  background-image: url(/images/12.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 1400px 1000px;
+}
+
+.searchBox {
+  width: 100%;
+}
+
+.welcome {
+  color: white;
+}
+
+.nav-link {
+    color: #9fc69f;
+}
+
+.login_div {
+  margin-top: 2em;
+}
+
+.signin-label {
+  font-size: 20px;
+  padding-bottom: 1em;
+  padding-top: 0.5em;
+  margin-left: 81px;
+  color: black;
+}
+
+.loginbtn {
+  padding-right: 3em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: 1em;
+  background-color: #dc143c;
+}
+
+.heading-login {
+
+  font-size: xx-large;
+  color: black;
+  padding: 0ex 1ex 0ex 1ex;
+  border-radius: 4px;
+  background-color: cadetblue;
+}
+
+.register-button {
+  color: blue;
+  font-size:16px;
+  text-decoration: underline;
+}
+
+.searchCards{
+  padding: 20px;
+}
+.searchCard{
+  width: 360px;
+  padding: 20px;
+  display: inline-flex;
+}
+@media all and (min-width: 480px) {
+  .login {
+    padding: 60px 0;
+    margin-left: 50em;
+  }
+
+  .login form {
+    padding: 18px 23px 35px 30px;
+    border-radius: 7px;
+    margin-top: 6ex;
+    max-width: 350px;
+    margin-left: 44px;
+
+  }
+  .heading-login{
+    margin-left: -26px;
+  }
+
+}
+.login form{
+  padding: 18px 47px 35px 50px;
+  border-radius: 7px;
+  margin-left: 1em;
+  margin-right: 1em;
+  background: white;
+}
+.form-control {
+    border: 10px ridge black;
+  }
+
+@media all and (min-width: 440px) {
+  .vehiclebtn {
+    margin-left: 200px !important;
+  }
+  .searchBox{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width:50%;
+    margin-top: 20px;
+  }
+  #footer{
+    height: 1em !important;
+  }
+}
+
+.container{
+  border-radius: 7px;
+}
+.vehiclebtn {
+  margin-left: 20px;
+}
+.map_canvas {
+  height: 400px;
+  max-width: 600px;
+  min-width: 250px;
+  //overflow: auto;
+  position: relative;
+  margin-left: 1em;
+  margin-right: 1em;
+  //float: right;
+  //margin-right: 1em;
+//  background-color: gray;
+}
+#route-data {
+  display: inline-block;
+  float: left;
+  //width: 500px;
+  min-height: 40px;
+  padding: 10px;
+}
+.hidden {
+  display: none;
+}
+.route-div{
+  border: 1.5px solid #19194d;
+  border-radius: 5px;
+  max-height: 380px;
+  //background-color: #ceebfd;
+  background-color: white;
+  margin-left: 1em;
+  margin-right: 1em;
+
+}
+
+// .map_canvas {
+//   z-index: 1;
+//   position: absolute;
+//   height: 100%;
+//   width: 100%;
+//   padding: 0px;
+//   border-width: 0px;
+//   margin: 0px;
+//   left: 0px;
+//   top: 0px;
+// }
+
+.container {
+    background-color: white;
+}
+
+#route-info-title{
+  border-bottom: 1px dotted;
+  border-top: 1px dotted;
+  text-align: center;
+  width: 100%;
+  background-color: #19194d;
+  color: white;
+}
+#route-info{
+  padding-left: 10px;
+  padding-top: 10px;
+  min-height: 40px;
+  max-height: 200px;
+  overflow-y: auto;
+  width:100%;
+  padding-bottom: 10px;
+}
+#route-data{
+  padding: 10px;
+}
+
+#vehicle-data{
+  padding-left: 1rem;
+  padding-top: 1rem;
+
+}
+#footer{
+  color: white;
+  font-variant: petite-caps;
+  font-size: 18px;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  text-align: center;
+  height: 28px;
+  background: cadetblue;
+  height: 4em;
+}
+body{
+  height: 100%;
+}
+
+/* Optional: Makes the sample page fill the window. */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.loadingLogin {
+  display:none;
+  position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+  font-size: 40px;
+  text-align: center;
+	background: url(images/128x128/Preloader_2.gif) center no-repeat #fff;
+}
+.fetchingStops {
+  display:none;
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+  font-size: 40px;
+  text-align: center;
+	background: url(images/00.gif) center no-repeat #fff;
+}
+#searchHistoryBtn{
+  display: none;
+}
