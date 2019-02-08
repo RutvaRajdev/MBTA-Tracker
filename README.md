@@ -1,5 +1,7 @@
 # BusTracker
 
+See the application live on: https://mbtatracker.rutvarajdev.com/
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
